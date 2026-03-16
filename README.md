@@ -1,2 +1,19 @@
 # laravel-system-admin
-If you've got a fresh Ubuntu server and a Laravel app, this script handles the boring stuff: installing the stack, and giving you a real-time data for your logs and server health.
+
+This script handles all the Laravel/nginx hosting and managing nightmares.
+
+## Install git
+
+```bash
+sudo apt-get update
+sudo apt-get install git
+```
+
+## Get started
+
+```bash
+git clone https://github.com/your-username/laravel-system-admin.git
+cd laravel-system-admin
+chmod +x *.sh
+sudo ./server-manager.sh
+```
