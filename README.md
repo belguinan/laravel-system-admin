@@ -12,7 +12,7 @@ sudo apt-get install git
 ## Get started
 
 ```bash
-git clone https://github.com/your-username/laravel-system-admin.git
+git clone https://github.com/belguinan/laravel-system-admin.git
 cd laravel-system-admin
 chmod +x *.sh
 sudo ./server-manager.sh
